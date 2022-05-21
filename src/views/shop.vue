@@ -174,5 +174,13 @@ export default {
      margin-left:25px;
    }
  }
-
+@media screen and (max-width:700px) {
+   .shop-content{
+     .hide
+     {
+         display:none;
+     }
+     
+   }
+ }
 </style>
