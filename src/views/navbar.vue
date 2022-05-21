@@ -716,4 +716,18 @@ li{
        }
     }
 } 
+@media screen and (max-width:700px) {
+  .navbar{
+    width:94%;
+      left:-0.9rem;
+  }
+  .navbar-right{
+      .dropdown{
+        display:none;
+      }
+  }
+  .hide{
+     display:none;
+  }
+}
 </style>
